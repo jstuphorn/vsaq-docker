@@ -1,6 +1,6 @@
 FROM ubuntu:focal
 
-LABEL org.operncontainers.image.authors="Jörn Stuphorn <jst@tonkunst.berlin>"
+LABEL org.operncontainers.image.authors="Jörn Stuphorn <joern@stuphorn.de>"
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Etc/UTC
 ENV PYTHONUNBUFFERED=1
